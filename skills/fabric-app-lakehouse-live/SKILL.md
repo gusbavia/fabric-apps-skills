@@ -1,10 +1,10 @@
 ---
 name: fabric-app-lakehouse-live
-description: Use when a web app (especially a Fabric App SPA) must read EXISTING Lakehouse data live with no backend — "query the Lakehouse from the browser", "live data without a server", "call Fabric GraphQL from my SPA", or when debugging that path: 403 InsufficientPrivileges on a Fabric GraphQL API, MSAL sign-in returning to a blank page, popup "tela preta", token works but queries fail, rows silently missing. Read-only by design — the Lakehouse SQL endpoint has no mutations and syncs lazily. If the app writes data back, use fabric-app-sqldb-writeback instead. For creating/deploying the app shell, use fabric-app-bootstrap.
+description: "Use when a web app (especially a Fabric App SPA) must read EXISTING Lakehouse data live with no backend — 'query the Lakehouse from the browser', 'live data without a server', 'call Fabric GraphQL from my SPA', or when debugging that path: 403 InsufficientPrivileges on a Fabric GraphQL API, MSAL sign-in returning to a blank page, popup 'tela preta', token works but queries fail, rows silently missing. Read-only by design — the Lakehouse SQL endpoint has no mutations and syncs lazily. If the app writes data back, use fabric-app-sqldb-writeback instead. For creating/deploying the app shell, use fabric-app-bootstrap."
 license: MIT
 metadata:
   author: Gus Bavia
-  version: 0.1.0
+  version: 0.1.1
   category: microsoft-fabric
   tags: [fabric, graphql, lakehouse, msal, entra, sso, delegated-token, spa, live-data, read-only, GraphQLApi-Execute-All, cors, jwt]
   companions: [fabric-app-bootstrap, fabric-app-sqldb-writeback]

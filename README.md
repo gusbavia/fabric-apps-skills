@@ -1,7 +1,7 @@
 # Fabric Apps Skills
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-c2e000.svg)](./LICENSE)
-[![Version](https://img.shields.io/badge/version-0.1.0-201d15.svg)](./CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.1.1-201d15.svg)](./CHANGELOG.md)
 [![Microsoft Fabric Apps](https://img.shields.io/badge/Microsoft%20Fabric%20Apps-preview-93b000.svg)](https://learn.microsoft.com/fabric)
 [![Agent Skills](https://img.shields.io/badge/agent%20skills-3-201d15.svg)](#the-skills)
 

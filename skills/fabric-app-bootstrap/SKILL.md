@@ -1,10 +1,10 @@
 ---
 name: fabric-app-bootstrap
-description: Use when creating or deploying a Microsoft Fabric App (preview, Rayfin CLI) — "build my first Fabric App", "host this SPA inside Fabric", "deploy to Fabric Apps", "rayfin up fails", "what can Fabric Apps host", or when a deploy needs to run headless/CI with a service principal and zero portal clicks. Also use BEFORE porting an existing app into Fabric, to check what survives static hosting (no Node SSR, no server secrets, no Python runtime, 100 MB zip cap). Do NOT use for the data layer — that is fabric-app-lakehouse-live (read-only) or fabric-app-sqldb-writeback (write-back).
+description: "Use when creating or deploying a Microsoft Fabric App (preview, Rayfin CLI) — 'build my first Fabric App', 'host this SPA inside Fabric', 'deploy to Fabric Apps', 'rayfin up fails', 'what can Fabric Apps host', or when a deploy needs to run headless/CI with a service principal and zero portal clicks. Also use BEFORE porting an existing app into Fabric, to check what survives static hosting (no Node SSR, no server secrets, no Python runtime, 100 MB zip cap). Do NOT use for the data layer — that is fabric-app-lakehouse-live (read-only) or fabric-app-sqldb-writeback (write-back)."
 license: MIT
 metadata:
   author: Gus Bavia
-  version: 0.1.0
+  version: 0.1.1
   category: microsoft-fabric
   tags: [fabric-apps, rayfin, deploy, service-principal, vite, spa, static-hosting, headless, ci, preview]
   companions: [fabric-app-lakehouse-live, fabric-app-sqldb-writeback]

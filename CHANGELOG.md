@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 — 2026-06-11
+
+- Fix: YAML frontmatter descriptions are now quoted. Unquoted colons inside two descriptions broke strict YAML parsers, which could prevent the skills from registering.
+
 ## 0.1.0 — 2026-06-11
 
 First public release. Three skills, extracted from a real end-to-end build (Next.js team dashboard → Fabric-native app with transactional write-back), each application-tested with agent scenarios before release.

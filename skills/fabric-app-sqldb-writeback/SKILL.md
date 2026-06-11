@@ -1,10 +1,10 @@
 ---
 name: fabric-app-sqldb-writeback
-description: Use when a Fabric App needs transactional WRITE-BACK (comments, edits, requests, approvals) on top of Lakehouse data — "users edit data in my Fabric app", "write back to the source", "my saved comment takes forever to appear", "read-your-own-writes", "mirror Gold into the app database", "seed the Rayfin SQL DB headless", or when the app is juggling multiple data tiers/auth flows and needs consolidation. Encodes the operational-data-store architecture: app owns its SQL DB, a copy job mirrors Lakehouse Gold into it, one SDK for everything. For read-only apps use fabric-app-lakehouse-live; for app creation/deploy use fabric-app-bootstrap.
+description: "Use when a Fabric App needs transactional WRITE-BACK (comments, edits, requests, approvals) on top of Lakehouse data — 'users edit data in my Fabric app', 'write back to the source', 'my saved comment takes forever to appear', 'read-your-own-writes', 'mirror Gold into the app database', 'seed the Rayfin SQL DB headless', or when the app is juggling multiple data tiers/auth flows and needs consolidation. Encodes the operational-data-store architecture: app owns its SQL DB, a copy job mirrors Lakehouse Gold into it, one SDK for everything. For read-only apps use fabric-app-lakehouse-live; for app creation/deploy use fabric-app-bootstrap."
 license: MIT
 metadata:
   author: Gus Bavia
-  version: 0.1.0
+  version: 0.1.1
   category: microsoft-fabric
   tags: [fabric-apps, rayfin, sql-database, write-back, tds, pyodbc, service-principal, mirror, operational-data-store, entities, dab, read-your-own-writes, seed, refresh]
   companions: [fabric-app-bootstrap, fabric-app-lakehouse-live]
